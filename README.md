@@ -3,6 +3,7 @@
 ## No more messy JSON config parsing!
 Parses Bluemix (CloudFoundry) VCAP_SERVICES configurations and allow access to it in a programatic way, with auto-complete support on you favorite IDE!
 
+For example:
 ```
 String password = BluemixConfigStore.getConfig().getCloudantNoSQLDB().getCredentials().getPassword();
 ```
