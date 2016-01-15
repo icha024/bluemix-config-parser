@@ -4,9 +4,8 @@
 Parses Bluemix (CloudFoundry) VCAP_SERVICES configurations and allow access to it in a programatic way, with auto-complete support on you favorite IDE!
 
 ```
-  String username = BluemixConfigStore.getConfig().getCloudantNoSQLDB().getCredentials().getUsername();
-  
-  String password = BluemixConfigStore.getConfig().getCloudantNoSQLDB().getCredentials().getPassword();
+String username = BluemixConfigStore.getConfig().getCloudantNoSQLDB().getCredentials().getUsername();
+String password = BluemixConfigStore.getConfig().getCloudantNoSQLDB().getCredentials().getPassword();
 ```
 
 ## Configurations supported
