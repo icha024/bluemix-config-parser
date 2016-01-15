@@ -24,6 +24,6 @@ For local development, there are two common ways to setup environment:
 
 ## Contributing
 Pull requests are accepted.
-https://github.com/icha024/bluemix-config-parser/
+[https://github.com/icha024/bluemix-config-parser/](https://github.com/icha024/bluemix-config-parser/)
 
 Just fork this project, follow the pattern and add binding/tests, then raise a pull request.
