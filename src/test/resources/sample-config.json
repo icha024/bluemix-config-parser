@@ -1,0 +1,397 @@
+{
+  "cloudantNoSQLDB": [
+	{
+	  "name": "Spacer-cloudantNoSQLDB",
+	  "label": "cloudantNoSQLDB",
+	  "plan": "Shared",
+	  "credentials": {
+		"username": "abcccctests-9144-4c65-8f10-abcccctests-bluemix",
+		"password": "abcccctests",
+		"host": "abcccctests-9144-4c65-8f10-abcccctests-bluemix.cloudant.com",
+		"port": 443,
+		"url": "https://abcccctests-9144-4c65-8f10-abcccctests-bluemix:abcccctests@abcccctests-9144-4c65-8f10-abcccctests-bluemix.cloudant.com"
+	  }
+	}
+  ],
+  "MonitoringAndAnalytics": [
+	{
+	  "name": "Monitoring and Analytics-dw",
+	  "label": "MonitoringAndAnalytics",
+	  "plan": "Free",
+	  "credentials": {
+		"bmapp_id": "CL:abcccctests",
+		"service_plan": "Plan4-IBM-APM-Monitoring-Analytics-1.0",
+		"credential_user": "abccccccc-4ed2-49af-abcc-abcccctests",
+		"credential_url": "https://env5monitoringservicebroker.ng.bluemix.net/v1/credentials/abccccc-5be6-bacc-8911-abcccctests/abcccctests-1021-47fc-aa8f-abcccctests",
+		"credential_pass": "c1b4461b-abcccctests-4af2-9775-abcccctests",
+		"scala_userid": "abcccctests",
+		"app_guid": "abcccccc-1021-47fc-aa8f-abcccctests",
+		"password": "abcccctests",
+		"url": "https://abcccctests.agents.na.apm.ibmserviceengage.com/OEReceiver/v1/monitoringdata",
+		"scala_password": "abcccctests",
+		"keyfile": "testkeyfile",
+		"scala_url": "https://abcccctests.gateway.prd.na.ca.ibmserviceengage.com",
+		"deepdive_url": "https://abcccctests.agents.na.apm.ibmserviceengage.com/1.0/monitoring/data",
+		"pkcskey": "testkeyfile"
+	  }
+	}
+  ],
+  "mqlight": [
+	{
+	  "name": "MQ Light-sp",
+	  "label": "mqlight",
+	  "plan": "standard",
+	  "credentials": {
+		"nonTLSConnectionLookupURI": "http://mqlightprod-lookup.ng.bluemix.net/Lookup?serviceId=abcccctests",
+		"username": "abcccctests",
+		"connectionLookupURI": "http://mqlightprod-lookup.ng.bluemix.net/Lookup?serviceId=abcccctests&tls=true",
+		"password": "abcccctests",
+		"version": "2"
+	  }
+	}
+  ],
+  "cloudamqp": [
+	{
+	  "name": "CloudAMQP-mo",
+	  "label": "cloudamqp",
+	  "plan": "lemur",
+	  "credentials": {
+		"uri": "amqp://abcccctests:abcccctests-abcccctests@white-swan.rmq.cloudamqp.com/abccc",
+		"http_api_uri": "https://abcccctests:abcccctests-abcccctests@white-swan.rmq.cloudamqp.com/api/"
+	  }
+	}
+  ],
+  "SessionCache": [
+	{
+	  "name": "Session Cache-8j",
+	  "label": "SessionCache",
+	  "plan": "starter",
+	  "credentials": {
+		"catalogEndPoint": "168.11.22.26:2809,168.11.33.22:2809",
+		"restResource": "http://168.1.33.26/resources/datacaches/testresource",
+		"restResourceSecure": "https://ecaas3.au-syd.bluemix.net/resources/datacaches/testresource",
+		"gridName": "testGrid",
+		"username": "usernamespecial",
+		"password": "testpass"
+	  }
+	}
+  ],
+  "imfpush": [
+	{
+	  "name": "IBM Push Notifications-xp",
+	  "label": "imfpush",
+	  "plan": "Basic",
+	  "credentials": {
+		"url": "http://imfpush.au-syd.bluemix.net/imfpush/v1/apps/usrkey",
+		"admin_url": "//mobile.au-syd.bluemix.net/imfpushdashboard/?appGuid=guidkeyabc",
+		"appSecret": "appSecret"
+	  }
+	}
+  ],
+  "WorkloadScheduler": [
+	{
+	  "name": "Workload Scheduler-em",
+	  "label": "WorkloadScheduler",
+	  "plan": "Standard",
+	  "credentials": {
+		"userId": "useridtest%40bluemix.net",
+		"password": "passtestabccc",
+		"url": "https://bacccc%40bluemix.net:abccdeef@abbbbb-330.wa.ibmserviceengage.com/ibm/TWSWebUI/Simple/rest?tenantId=AA&engineName=engine&engineOwner=engine"
+	  }
+	}
+  ],
+  "DataCache": [
+	{
+	  "name": "Data Cache-1v",
+	  "label": "DataCache",
+	  "plan": "starter",
+	  "credentials": {
+		"catalogEndPoint": "168.12.34.56:2809,168.11.22.33:2809",
+		"restResource": "http://168.1.33.6/resources/datacaches/myresource",
+		"restResourceSecure": "https://ecaas1.au-syd.bluemix.net/resources/datacaches/somekey",
+		"gridName": "testgrid",
+		"username": "griduser",
+		"password": "gridpasswordtest"
+	  }
+	}
+  ],
+  "Geospatial Analytics": [
+	{
+	  "name": "Geospatial Analytics-2h",
+	  "label": "Geospatial Analytics",
+	  "plan": "Standard",
+	  "credentials": {
+		"password": "5specialphrase",
+		"geo_host": "streams-broker.eu-gb.bluemix.net",
+		"dashboard_path": "/jax-rs/dashboard/specialphrase",
+		"stop_path": "/jax-rs/geo/stop/service_instances/specialphrase/service_bindings/specialphrase",
+		"geo_port": 443,
+		"remove_region_path": "/jax-rs/geo/removeRegion/service_instances/7useridtest/service_bindings/useridtest",
+		"restart_path": "/jax-rs/geo/restart/service_instances/useridtest/service_bindings/useridtest",
+		"start_path": "/jax-rs/geo/start/service_instances/useridtest/service_bindings/useridtest",
+		"add_region_path": "/jax-rs/geo/addRegion/service_instances/useridtest/service_bindings/useridtest",
+		"userid": "useridtest",
+		"status_path": "/jax-rs/geo/status/service_instances/useridtest/service_bindings/useridtest"
+	  }
+	}
+  ],
+  "twitterinsights": [
+	{
+	  "name": "Insights for Twitter-qi",
+	  "label": "twitterinsights",
+	  "plan": "Free",
+	  "credentials": {
+		"username": "useridtest",
+		"password": "specialphrase",
+		"host": "cdeservice.au-syd.mybluemix.net",
+		"port": 443,
+		"url": "https://useridtest:specialphrase@cdeservice.au-syd.mybluemix.net"
+	  }
+	}
+  ],
+  "weatherinsights": [
+	{
+	  "name": "Insights for Weather-9j",
+	  "label": "weatherinsights",
+	  "plan": "Free",
+	  "credentials": {
+		"username": "useridtest",
+		"password": "specialphrase",
+		"host": "twcservice.au-syd.mybluemix.net",
+		"port": 443,
+		"url": "https://aspecialphrase@twcservice.au-syd.mybluemix.net"
+	  }
+	}
+  ],
+  "dashDB": [
+	{
+	  "name": "dashDB-za",
+	  "label": "dashDB",
+	  "plan": "Entry",
+	  "credentials": {
+		"port": 50000,
+		"db": "BLUDB",
+		"username": "dash100091",
+		"ssljdbcurl": "jdbc:db2://dashdb-entry-yp-syd01-01.services.au-syd.bluemix.net:50001/BLUDB:sslConnection=true;",
+		"host": "dashdb-entry-yp-syd01-01.services.au-syd.bluemix.net",
+		"https_url": "https://dashdb-entry-yp-syd01-01.services.au-syd.bluemix.net:8443",
+		"dsn": "DATABASE=BLUDB;HOSTNAME=dashdb-entry-yp-syd01-01.services.au-syd.bluemix.net;PORT=50000;PROTOCOL=TCPIP;UID=dash100091;PWD=specialphrase;",
+		"hostname": "dashdb-entry-yp-syd01-01.services.au-syd.bluemix.net",
+		"jdbcurl": "jdbc:db2://dashdb-entry-yp-syd01-01.services.au-syd.bluemix.net:50000/BLUDB",
+		"ssldsn": "DATABASE=BLUDB;HOSTNAME=dashdb-entry-yp-syd01-01.services.au-syd.bluemix.net;PORT=50001;PROTOCOL=TCPIP;UID=dash100091;PWD=specialphrase;Security=SSL;",
+		"uri": "db2://dash100091:specialphrase@dashdb-entry-yp-syd01-01.services.au-syd.bluemix.net:50000/specialphrase",
+		"password": "specialphrase"
+	  }
+	}
+  ],
+  "businessrules": [
+	{
+	  "name": "Business Rules-ho",
+	  "label": "businessrules",
+	  "plan": "standard",
+	  "credentials": {
+		"executionAdminRestUrl": "https://useridtest-specialphrase.au-syd.bluemix.net/res/apiauth",
+		"executionRestUrl": "https://useridtest-specialphrase.au-syd.bluemix.net/DecisionService/rest",
+		"password": "password",
+		"executionSoapUrl": "https://useridtest-specialphrase.au-syd.bluemix.net/DecisionService/ws",
+		"executionAdminUrl": "https://useridtest-specialphrase.au-syd.bluemix.net/res",
+		"user": "useridtest"
+	  }
+	}
+  ],
+  "Workflow": [
+	{
+	  "name": "Workflow-lo",
+	  "label": "Workflow",
+	  "plan": "standard",
+	  "credentials": {
+		"url": "https://workflow.ng.bluemix.net/useridtest8/info",
+		"user": "useridtest",
+		"password": "specialphrase"
+	  }
+	}
+  ],
+  "retrieve_and_rank": [
+	{
+	  "name": "Retrieve and Rank-7v",
+	  "label": "retrieve_and_rank",
+	  "plan": "standard",
+	  "credentials": {
+		"url": "https://gateway.watsonplatform.net/retrieve-and-rank/api",
+		"username": "useridtestd",
+		"password": "specialphrase"
+	  }
+	}
+  ],
+  "document_conversion": [
+	{
+	  "name": "Document Conversion-lb",
+	  "label": "document_conversion",
+	  "plan": "standard",
+	  "credentials": {
+		"url": "https://gateway.watsonplatform.net/document-conversion/api",
+		"username": "useridtest",
+		"password": "specialphrase"
+	  }
+	}
+  ],
+  "relationship_extraction": [
+	{
+	  "name": "Relationship Extraction-72",
+	  "label": "relationship_extraction",
+	  "plan": "relationship_extraction_free_plan",
+	  "credentials": {
+		"url": "https://gateway.watsonplatform.net/relationship-extraction-beta/api",
+		"sids": [
+		  {
+			"sid": "ie-es-news",
+			"description": "information extraction from Spanish news"
+		  },
+		  {
+			"sid": "ie-en-news",
+			"description": "information extraction from English news"
+		  }
+		],
+		"username": "useridtest",
+		"password": "specialphrase"
+	  }
+	}
+  ],
+  "concept_expansion": [
+	{
+	  "name": "Concept Expansion-va",
+	  "label": "concept_expansion",
+	  "plan": "concept_expansion_free_plan",
+	  "credentials": {
+		"services": [
+		  {
+			"conceptexpansion": {
+			  "params": [
+				{
+				  "type": "json_list",
+				  "name": "seed"
+				},
+				{
+				  "type": "string",
+				  "name": "label"
+				},
+				{
+				  "type": "string",
+				  "name": "dataset"
+				}
+			  ],
+			  "name": "conceptexpansion"
+			}
+		  }
+		],
+		"url": "https://gateway.watsonplatform.net/concept-expansion-beta/api",
+		"username": "useridtest",
+		"password": "specialphrase"
+	  }
+	}
+  ],
+  "concept_insights": [
+	{
+	  "name": "Concept Insights-2r",
+	  "label": "concept_insights",
+	  "plan": "standard",
+	  "credentials": {
+		"url": "https://gateway.watsonplatform.net/concept-insights/api",
+		"username": "useridtest",
+		"password": "specialphrase"
+	  }
+	}
+  ],
+  "tradeoff_analytics": [
+	{
+	  "name": "Tradeoff Analytics-cm",
+	  "label": "tradeoff_analytics",
+	  "plan": "standard",
+	  "credentials": {
+		"url": "https://gateway.watsonplatform.net/tradeoff-analytics/api",
+		"username": "useruserusername",
+		"password": "specialphrase"
+	  }
+	}
+  ],
+  "sqldb": [
+	{
+	  "name": "SQL Database-ql",
+	  "label": "sqldb",
+	  "plan": "sqldb_free",
+	  "credentials": {
+		"hostname": "5.10.125.192",
+		"password": "password",
+		"port": 50000,
+		"host": "5.10.125.192",
+		"jdbcurl": "jdbc:db2://5.10.125.192:50000/SQLDB",
+		"uri": "db2://user04270:password@5.10.125.192:50000/SQLDB",
+		"db": "SQLDB",
+		"username": "user1111"
+	  }
+	}
+  ],
+  "cleardb": [
+	{
+	  "name": "ClearDB MySQL Database-jh",
+	  "label": "cleardb",
+	  "plan": "spark",
+	  "credentials": {
+		"jdbcUrl": "jdbc:mysql://us-cdbr-iron-east-03.cleardb.net/abbbbbbbccc?user=abccc&password=password",
+		"uri": "mysql://abcname:passsecret@us-cdbr-iron-east-03.cleardb.net:3306/instance?reconnect=true",
+		"name": "abcname",
+		"hostname": "us-cdbr-iron-east-03.cleardb.net",
+		"port": "3306",
+		"username": "secretuser",
+		"password": "passwordsecret"
+	  }
+	}
+  ],
+  "user-provided": [
+	{
+	  "name": "Twilio-6r",
+	  "label": "user-provided",
+	  "credentials": {
+		"accountSID": "somesid",
+		"authToken": "sometoken"
+	  }
+	},
+	{
+	  "name": "Redis by Compose-hs",
+	  "label": "user-provided",
+	  "credentials": {
+		"username": "usernamesecret",
+		"password": "passwordsecret",
+		"public_hostname": "localhost:8080"
+	  }
+	},
+	{
+	  "name": "MongoDB by Compose-ao",
+	  "label": "user-provided",
+	  "credentials": {
+		"uri": "localhost",
+		"port": "7070",
+		"user": "myusername",
+		"password": "my password"
+	  }
+	},
+	{
+	  "name": "Elasticsearch by Compose-jb",
+	  "label": "user-provided",
+	  "credentials": {
+		"username": "myusername",
+		"password": "mypassword",
+		"public_hostname": "localhost:8080"
+	  }
+	},
+	{
+	  "name": "PostgreSQL by Compose-6k",
+	  "label": "user-provided",
+	  "credentials": {
+		"username": "myusername",
+		"password": "password",
+		"public_hostname": "localhost:8080"
+	  }
+	}
+  ]
+}
