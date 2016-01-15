@@ -1,4 +1,4 @@
-# bluemix-config-parser
+# Bluemix Config Parser
 
 ## No more messy json config parsing!
 Parses Bluemix (CloudFoundry) VCAP_SERVICES configurations and allow access it in a programatic way. 
@@ -14,4 +14,7 @@ More than 20 of the common services on Bluemix are currently supported.
 Add more bindings to other services if you need, let's do this once and for all for everyone.
 
 ## Contributing
-Pull requests are accepted. Just fork this project, follow the pattern and add binding/tests, then raise a pull request.
+Pull requests are accepted.
+https://github.com/icha024/bluemix-config-parser/
+
+Just fork this project, follow the pattern and add binding/tests, then raise a pull request.
