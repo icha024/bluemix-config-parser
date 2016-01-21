@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.clianz</groupId>
 	<artifactId>bluemix-config-parser</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<name>bluemix-config-parser</name>
 	<description>Bluemix Config Parser</description>
 	<properties>
@@ -48,7 +48,7 @@
 		<connection>scm:git:git@github.com:icha024/bluemix-config-parser.git</connection>
 		<developerConnection>scm:git:git@github.com:icha024/bluemix-config-parser.git</developerConnection>
 		<url>http://github.com/icha024/bluemix-config-parser</url>
-		<tag>HEAD</tag>
+		<tag>bluemix-config-parser-0.0.2</tag>
 	</scm>
 	<build>
 		<plugins>
