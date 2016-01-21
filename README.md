@@ -1,15 +1,21 @@
-# Bluemix Config Parser
+# Bluemix Config Parser - No more messy JSON config parsing!
 
-## No more messy JSON config parsing!
-Parses Bluemix (CloudFoundry) VCAP_SERVICES configurations and allow access to it in a programatic way, with auto-complete support in your favorite IDE!
+When using Bluemix (CloudFoundry), services configuration are read by parsing the JSON from VCAP_SERVICES environment variable. This is a handy util library for parsing Bluemix VCAP_SERVICES configurations JSON. Common configs classess are provided so it'll even work with auto-completion on your favorite IDE.
 
-For example:
+## Usage example
 ```
 String password = BluemixConfigStore.getConfig().getCloudantNoSQLDB().getCredentials().getPassword();
 ```
 
 ## Installing with Maven
-(TBA)
+
+```
+<dependency>
+  <groupId>com.clianz</groupId>
+  <artifactId>bluemix-config-parser</artifactId>
+  <version>0.0.1</version>
+</dependency>
+```
 
 ## Configurations supported
 Most of the common services on Bluemix are currently supported:
