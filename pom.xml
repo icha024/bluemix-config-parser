@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.clianz</groupId>
 	<artifactId>bluemix-config-parser</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>bluemix-config-parser</name>
 	<description>Bluemix Config Parser</description>
 	<properties>
