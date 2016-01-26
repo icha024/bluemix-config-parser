@@ -1,4 +1,7 @@
-# Bluemix Config Parser - No more messy JSON config parsing!
+# Bluemix Config Parser
+[![Build Status](https://travis-ci.org/icha024/bluemix-config-parser.svg?branch=master)](https://travis-ci.org/icha024/bluemix-config-parser)
+
+##No more messy JSON config parsing!
 
 When using Bluemix (CloudFoundry), services configuration are read by parsing the JSON from VCAP_SERVICES environment variable. This is a handy util library for parsing Bluemix VCAP_SERVICES configurations JSON. Common configs classess are provided so it'll even work with auto-completion on your favorite IDE.
 
