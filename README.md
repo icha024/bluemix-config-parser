@@ -16,7 +16,7 @@ String password = BluemixConfigStore.getConfig().getCloudantNoSQLDB().getCredent
 <dependency>
   <groupId>com.clianz</groupId>
   <artifactId>bluemix-config-parser</artifactId>
-  <version>0.0.4</version>
+  <version>0.0.5</version>
 </dependency>
 ```
 
